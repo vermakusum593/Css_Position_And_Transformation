@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.design-thinking, .unveil-superpowers, .design-professionals, .product-managers, .optimization-marketers {
+    padding: 2rem;
+    text-align: center;
+}
+
+.design-thinking, .unveil-superpowers, .design-professionals, .product-managers, .optimization-marketers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.design-thinking .text, .unveil-superpowers .text, .design-professionals .text, .product-managers .text, .optimization-marketers .text {
+    flex: 1;
+}
+
+.design-thinking img, .unveil-superpowers img, .design-professionals img, .product-managers img, .optimization-marketers img {
+    max-width: 50%;
+    height: auto;
+}
+
+.design-thinking h1, .unveil-superpowers h2, .design-professionals h2, .product-managers h2, .optimization-marketers h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.design-thinking p, .unveil-superpowers ul, .design-professionals p, .product-managers p, .optimization-marketers p {
+    margin-bottom: 1rem;
+}
+
+.buttons, .unveil-superpowers ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.get-started, .watch-video, .signup-now {
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.get-started {
+    background-color: blue;
+    color: white;
+}
+
+.watch-video, .signup-now {
+    background-color: gray;
+    color: white;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links li {
+    margin: 0.5rem;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-signup {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-signup input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-signup .signup-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
