@@ -1,98 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./Style/Reset.css">
+    <link rel="stylesheet" href="./Style/style.css" />
     <title>Productly</title>
-    <link rel="stylesheet" href="Style/style.css">
-</head>
-<body>
-
-    <nav class="navbar">
-        <div class="logo">Productly</div>
-        <ul class="nav-links">
-            <li><a href="#">Product</a></li>
-            <li><a href="#">Customers</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Resources</a></li>
+  </head>
+  <body>
+    <nav>
+      <div class="navi-left">
+        <img src="./img/productly.svg" alt="productly" />
+      </div>
+      <div class="navi-right">
+        <ul class="navi-links">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Customers</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Resources</a></li>
         </ul>
-        <button class="signup-btn">Sign Up</button>
+        <div class="buttons">
+          <button class="btn1">Sign In</button>
+          <button class="btn2">Sign Up</button>
+        </div>
+      </div>
     </nav>
-
-    <section class="design-thinking">
-        <div class="text">
-            <h1>The Design Thinking Superpowers</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-            <div class="buttons">
-                <button class="get-started">Get started</button>
-                <button class="watch-video">Watch the Video</button>
+    <section class="aboutProductly">
+        <div class="left">
+            <div class="main">
+                <h1 class="main-title">The Design Thinking superpowers</h1>
+                <p class="main-info">
+                    Tools, tutorials, design and innovation experts, all in one place!
+                    The most intuitive way to imagine your next user experience.
+                </p>
+                <div class="button-container">
+                    <button class="main-btn1">Get started</button>
+                    <div class=" watch-video-link">
+                        <a href="#">
+                            <img class="play-icon" src="./img/play-icon.png" alt="Play icon">
+                            Watch the video
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <img src="img/02_image.png" alt="Design Thinking Image">
-    </section>
-
-
-    <section class="unveil-superpowers">
-        <div class="text">
-            <h2>We design tools to unveil your superpowers</h2>
-            <ul>
-                <li><strong>First click tests:</strong> While most people enjoy casino gambling.</li>
-                <li><strong>Design surveys:</strong> Sports betting, lottery and bingo playing for the fun.</li>
-                <li><strong>Preference tests:</strong> The Myspace page defines the individual.</li>
-                <li><strong>Five second tests:</strong> Personal choices and the overall personality of the person.</li>
-            </ul>
-            <button class="signup-now">SIGN UP NOW</button>
+        <div class="right">
+            <img class="section-img" src="./img/img1.png" alt="flying people" />
         </div>
     </section>
-
-
+    
+    <section class="features">
+      <h2 class="feature-header">We design tools to unveil your superpowers</h2>
+      <div class="logos">
+        <div class="logo">
+          <img width="51" height="50" src="./img/logo4.png" alt="" />
+          <h3 class="logo-header">First click tests</h3>
+          <p class="logo-info">While most people enjoy casino gambling.</p>
+        </div>
+        <div class="logo">
+          <img width="51" height="50" src="./img/logo3.png" alt="" />
+          <h3 class="logo-header">Design surveys</h3>
+          <p class="logo-info">
+            Sports betting, lottery and bingo playing for the fun
+          </p>
+        </div>
+        <div class="logo">
+          <img width="51" height="50" src="./img/logo2.png" alt="" />
+          <h3 class="logo-header">Preference tests</h3>
+          <p class="logo-info">The Myspace page defines the individual.</p>
+        </div>
+        <div class="logo">
+          <img width="51" height="50" src="./img/logo1.png" alt="" />
+          <h3 class="logo-header">Five second tests</h3>
+          <p class="logo-info">
+            Personal choices and the overall personality of the person.
+          </p>
+        </div>
+      </div>
+      <div class="productly-button-cont">
+        <button class="main-btn1">SIGN UP NOW</button>
+      </div>
+    </section>
     <section class="design-professionals">
-        <div class="text">
-            <h2>Effortless Validation for Design Professionals</h2>
-            <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
-            <p>Accessory makers: While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun.</p>
-            <p>Alterationists: If you are looking for a new way to promote your business that won't cost you more money.</p>
+      <div class="left">
+        <div class="main">
+          <p class="text-content">Effort less validation for</p>
+          <h1 class="design-title">Design Professionals</h1>
+          <p class="text-content">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <product>
+            <h3 class="productly-header">Accessory makers</h3>
+            <p class="text-content">
+              While most people enjoy casino gambling, sports betting, lottery
+              and bingo playing for the fun
+            </p>
+          </product>
+          <product>
+            <h3 class="productly-header">Alterationists</h3>
+            <p class="text-content">
+              If you are looking for a new way to promote your business that
+              won't cost you more money,
+            </p>
+          </product>
+          <product>
+            <h3 class="productly-header">Custom Design designers</h3>
+            <p class="text-content">
+              If you are looking for a new way to promote your business that
+              won't cost you more money,
+            </p>
+          </product>
         </div>
-        <img src="img/03_IMAGE.png" alt="Design Professionals Image">
+      </div>
+      <div class="right">
+        <img
+          class="section-img"
+          src="./img/img2.svg"
+          alt="Design Professionals"
+        />
+      </div>
     </section>
-
     <section class="product-managers">
-        <div class="text">
-            <h2>Easier decision making for Product Managers</h2>
-            <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person.</p>
-            <p>Never worry about overpaying for your energy again. We will only switch you to energy companies that we trust and will treat you right.</p>
-            <p>We track the markets daily and know where the savings are.</p>
+      <div class="left">
+        <img
+          class="section-img"
+          src="./img/img3.svg"
+          alt="Product Managers"
+        />
+      </div>
+      <div class="right">
+        <div class="main">
+          <p class="text-content">Easier decision making for</p>
+          <h1 class="design-title">Product Managers</h1>
+          <p class="text-content">
+            The Myspace page defines the individual, his or her characteristics,
+            traits, personal choices and the overall personality of the person.
+          </p>
+          <div class="productly">
+            <product>
+              <img src="./img/click.svg" alt="click-mark" />
+              <p class="text-content">
+                Never worry about overpaying for your energy again.
+              </p>
+            </product>
+            <product>
+              <img src="./img/click.svg" alt="click-mark" />
+              <p class="text-content">
+                We will only switch you to energy companies that we trust and
+                will treat you right
+              </p>
+            </product>
+            <product>
+              <img src="./img/click.svg" alt="click-mark" />
+              <p class="text-content">
+                We track the markets daily and know where the savings are.
+              </p>
+            </product>
+          </div>
         </div>
-        <img src="img/04_IMAGE.png" alt="Product Managers Image">
+      </div>
     </section>
-
-    <section class="optimization-marketers">
-        <div class="text">
-            <h2>Optimization for Marketers</h2>
-            <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior.</p>
-            <p>Accessory makers: While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun.</p>
-            <p>Alterationists: If you are looking for a new way to promote your business that won't cost you more money.</p>
+    <section class="marketers">
+      <div class="left">
+        <div class="main">
+          <p class="text-content">Optimisation for</p>
+          <h1 class="design-title">Marketers</h1>
+          <p class="text-content">
+            Few would argue that, despite the advancements of feminism over the
+            past three decades, women still face a double standard when it comes
+            to their behavior.
+          </p>
+          <product>
+            <h3 class="productly-header">Accessory makers</h3>
+            <p class="text-content">
+              While most people enjoy casino gambling, sports betting, lottery
+              and bingo playing for the fun
+            </p>
+          </product>
+          <product>
+            <h3 class="productly-header">Alterationists</h3>
+            <p class="text-content">
+              If you are looking for a new way to promote your business that
+              won't cost you more money,
+            </p>
+          </product>
+          <product>
+            <h3 class="productly-header">Custom Design designers</h3>
+            <p class="text-content">
+              If you are looking for a new way to promote your business that
+              won't cost you more money,
+            </p>
+          </product>
         </div>
-        <img src="img/05_IMAGE.png" alt="Optimization for Marketers Image">
+      </div>
+      <div class="right">
+        <img class="section-img" src="./img/img4.svg" alt="Marketers" />
+      </div>
     </section>
-
-
-    <footer class="footer">
-        <div class="footer-logo">Productly</div>
+    <footer>
+      <div class="logo">
+        <img src="./img/productly.svg" alt="productly" />
+      </div>
+      <div class="quick-links">
         <ul class="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Disclaimer</a></li>
-            <li><a href="#">Financing</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact us</a></li>
+          <li><a href="">FAQ</a></li>
         </ul>
-        <div class="footer-signup">
-            <input type="email" placeholder="Enter your email">
-            <button class="signup-btn">Sign up Now</button>
+        <ul class="footer-links">
+          <li><a href="">Disclaimer</a></li>
+          <li><a href="">Financing</a></li>
+          <li><a href="">Privacy policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+        </ul>
+        <div class="sign-up">
+          <input type="text" placeholder="Enter email address" />
+          <button class="footer-btn">Sign Up</button>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
