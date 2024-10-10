@@ -1,153 +1,288 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
-    color: white;
-}
-
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin: 0 1rem;
-}
-
-.nav-links a {
-    color: white;
     text-decoration: none;
-}
-
-.signup-btn {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
-
-.design-thinking, .unveil-superpowers, .design-professionals, .product-managers, .optimization-marketers {
-    padding: 2rem;
-    text-align: center;
-}
-
-.design-thinking, .unveil-superpowers, .design-professionals, .product-managers, .optimization-marketers {
+  }
+  
+  nav {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
-}
-
-.design-thinking .text, .unveil-superpowers .text, .design-professionals .text, .product-managers .text, .optimization-marketers .text {
-    flex: 1;
-}
-
-.design-thinking img, .unveil-superpowers img, .design-professionals img, .product-managers img, .optimization-marketers img {
-    max-width: 50%;
-    height: auto;
-}
-
-.design-thinking h1, .unveil-superpowers h2, .design-professionals h2, .product-managers h2, .optimization-marketers h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-.design-thinking p, .unveil-superpowers ul, .design-professionals p, .product-managers p, .optimization-marketers p {
-    margin-bottom: 1rem;
-}
-
-.buttons, .unveil-superpowers ul {
-    display: flex;
-    gap: 1rem;
-}
-
-.get-started, .watch-video, .signup-now {
-    padding: 0.5rem 1rem;
-    border: none;
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  li {
+    list-style-type: none;
+    display: inline-block;
+    height: 28px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #2f281e;
+  }
+  
+  a:hover,
+  button:hover {
     cursor: pointer;
-}
-
-.get-started {
-    background-color: blue;
-    color: white;
-}
-
-.watch-video, .signup-now {
-    background-color: gray;
-    color: white;
-}
-
-/* Footer Styles */
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 2rem;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer-logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-.footer-links {
-    list-style: none;
+    text-decoration: underline;
+  }
+  
+  button {
+    margin: 0 5px;
+  }
+  
+  .aboutProductly,
+  .design-professionals,
+  .product-managers,
+  .marketers {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.footer-links li {
-    margin: 0.5rem;
-}
-
-.footer-links a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-signup {
+    align-items: center;
+  }
+  
+  .aboutProductly .left,
+  .design-professionals .left,
+  .marketers .left,
+  .product-managers .right {
+    width: 518px;
+  }
+  
+  .navi-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+  }
+  
+  .links {
+    margin: 0 20px;
+  }
+  
+  .btn1 {
+    background-color: white;
+    color: #173a56;
+    width: 102px;
+    height: 46px;
+    border-radius: 4px;
+    border: 2px solid #bcd0e5;
+  }
+  
+  .btn2 {
+    background-color: rgb(161, 163, 49);;
+    color: #ffffff;
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    border: 2px solid #bcd0e5;
+  }
+  .main-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2f281e;
+    margin: 20px 0;
+  }
+  .main-info {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: #544837;
+    margin: 20px 0;
+  }
+  .main-btn1 {
+    width: 175px;
+    height: 53px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #ffffff;
+    background-color: rgb(161, 163, 49);;
+    border-radius: 4px;
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .productly-button-cont {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-}
-
-.footer-signup input {
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-}
-
-.footer-signup .signup-btn {
-    background-color: orange;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-}
+  }
+  
+  .watch-video-link {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+  }
+  
+  .watch-video-link a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: rgb(161, 163, 49);;
+    margin-left: 5px;
+  }
+  
+  .feature-header {
+    width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2f281e;
+  }
+  
+  .logos {
+    max-width: 1040px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+  }
+  
+  .logo {
+    width: 240px;
+    height: 204px;
+  }
+  
+  .logo-header {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2f281e;
+    margin: 10px 0;
+  }
+  
+  .logo-info,
+  .text-content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+  }
+  
+  .design-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2f281e;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .productly-header {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2f281e;
+    margin: 15px 0;
+  }
+  
+  .product-managers .right {
+    padding-left: 50px;
+  }
+  
+  .productly product {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .productly product .text-content {
+    margin-left: 20px;
+  }
+  
+  footer .logo {
+    margin: auto;
+    max-width: 1040px;
+    width: 100%;
+  }
+  
+  .quick-links {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1270px;
+    width: 100%;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-links li a {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2f281e;
+  }
+  
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .sign-up input {
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+  }
+  
+  .footer-btn {
+    width: 130px;
+    height: 39px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: rgb(161, 163, 49);
+    border-radius: 4px;
+    margin: 0px;
+  }
+  
+  .footer-links,
+  .sign-up {
+    margin: 0 25px;
+  }
+  
+  .section-img {
+    width: 520px;
+    max-height: 500px;
+  }
+  
+  footer {
+    margin-top: 30px;
+  }
+  
